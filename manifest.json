@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "KD Web Element Hider",
+  "version": "1.0.0",
+  "description": "Hide any unwanted element on any website with a single click. Keep your browsing clean.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

@@ -1,0 +1,14 @@
+# Project decision records and internal logs
+ADR.md
+BUSINESS_LOG.md
+WORK_LOG.md
+TROUBLESHOOTING.md
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Chrome Extension local cache and configuration files
+*.pem
+.DS_Store
+.agents/
