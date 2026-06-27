@@ -2,6 +2,8 @@
 
 A lightweight, high-performance Manifest V3 Chrome Extension for permanently hiding unwanted HTML elements. Remove distracting sidebars, ads, headers, or overlays with a single click to create a cleaner browsing experience.
 
+[![Watch the Demo Video](open-graph-image.png)](https://www.youtube.com/watch?v=x3Epz70Ffh8)
+
 [![Chrome MV3](https://img.shields.io/badge/Chrome-MV3-blue.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Language JavaScript](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -48,13 +50,6 @@ A lightweight, high-performance Manifest V3 Chrome Extension for permanently hid
 - **Shadow DOM Style Isolation:** Scopes the extension's dashboard CSS strictly inside a closed Shadow Root, preventing website styles from breaking the dashboard.
 - **Concurrency Locking:** Serializes concurrent scripting requests in the service worker to eliminate race conditions.
 - **Self-Healing Session Cleanup:** Automatically purges tab-specific session states upon tab closure, preventing memory and storage leaks.
-
----
-
-## Screenshots
-
-### Element Selector & Tooltip Overlay *(Click to watch the demo video)*
-[![Selector Overlay](open-graph-image.png)](https://www.youtube.com/watch?v=x3Epz70Ffh8)
 
 ---
 
