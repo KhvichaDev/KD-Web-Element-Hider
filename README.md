@@ -53,11 +53,20 @@ A lightweight, high-performance Manifest V3 Chrome Extension for permanently hid
 
 ---
 
-## Installation & Setup (Developer Mode)
+## Installation & Setup
 
+### Option 1: Official Release (Recommended)
+You can install **KD Web Element Hider** directly from the Chrome Web Store:
+👉 **[Get KD Web Element Hider on Chrome Web Store](https://chrome.google.com/webstore/detail/kd-web-element-hider)**
+
+Alternatively, you can open the Chrome Web Store and search for **"KD Web Element Hider"** to install it with one click.
+
+---
+
+### Option 2: Local Installation (Developer Mode)
 > **Note:** Chrome Developer Mode is required to load unpacked extensions locally.
 
-To run the extension locally:
+To run the extension locally from source:
 1. Clone this repository:
    ```bash
    git clone https://github.com/KhvichaDev/KD-Web-Element-Hider.git
